@@ -1,0 +1,27 @@
+Package: PMLfdr
+Type: Package
+Title: Poisson GLM Mixture for testing significant features in High-throughput sequencing data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Emmanuel", "Asare",
+      email = "manuelasare6@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: This package uses mixtures of Poisson GLMs and a local false discovery rate (Lfdr) procedure 
+    to test for the significance of features in High-throughput sequencing data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    doParallel,
+    doSNOW,
+    dplyr,
+    foreach,
+    ggplot2,
+    ggrepel,
+    magrittr,
+    MASS,
+    snow
+RoxygenNote: 7.3.2
